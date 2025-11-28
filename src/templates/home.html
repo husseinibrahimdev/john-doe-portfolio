@@ -3,10 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../static/main.css">
 </head>
 <body>
-    <h1>Homepage</h1>
-    <p>you are on the homepage</p>
+    <!-- Header -->
+    <header>
+        <h1>John Doe</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Hi, I'm John</h2>
+        <p>A passionate web developer creating clean and responsive websites.</p>
+        <a class="btn" href="#projects">View My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a web developer with experience in Flask, HTML, CSS, and JavaScript. I enjoy building user-friendly websites that make an impact.</p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A personal website to showcase my projects and skills.</p>
+            </div>
+            <div class="project">
+                <h3>Blog Platform</h3>
+                <p>A blog website built with Flask and SQLite for content management.</p>
+            </div>
+            <div class="project">
+                <h3>Todo App</h3>
+                <p>A simple and interactive todo application built with Flask and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out via email: <a href="mailto:john@example.com">john@example.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 John Doe. All rights reserved.</p>
+    </footer>
 </body>
 </html>
